@@ -1,5 +1,19 @@
 {
     "name": "andreymishin/hexlet-php",
     "description": "example package",
-    "require": {}
+    "autoload": {
+        "files": [
+	    "src/Runner.php"
+        ]
+    },
+    "sсripts": {
+        "phpcs": "phpcs"
+    },
+    "require": {
+        "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3",
+        "squizlabs/php_codesniffer": "^3.7"
+    }
 }
